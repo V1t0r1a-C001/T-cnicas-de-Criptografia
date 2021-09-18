@@ -1,0 +1,44 @@
+body{
+    background: linear-gradient(125deg,Royalblue 5%,LightCoral 25%,DarkOrchid 45%,SlateBlue 75%);
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align:center;
+    font-size:200%;
+    width: 100%;
+    top: 100%;
+    margin-bottom: 100
+    }
+    .container {
+        width: 100%;
+        max-width: 770px;
+        min-height: 100%;
+        margin: auto;
+      }
+      
+      .box {
+        /*background-color: rgb(115, 25, 233);*/
+        background: linear-gradient(125deg,Royalblue 5%,LightCoral 25%,DarkOrchid 45%,SlateBlue 75%);
+      }
+
+      .someChave
+{
+    display: none;
+}
+
+#inputChave,#Radio,#Play,#Codificador
+{
+    width: 200px;
+    height: 60px;
+    border-radius: 5px;
+    font-weight: normal;
+    font-size: 20px;
+}
+#mensagem, #resultado
+{
+  width: 400px;
+  height: 30px;
+  border-radius: 5px;
+  font-weight: normal;
+  font-size: 20px;
+}

@@ -1,0 +1,68 @@
+
+<!DOCTYPE html>
+<html lang="pt-Br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cifra de Cesár</title>
+    <script src="index.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Chakra+Petch&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <header class="header box">
+            <p><strong>Cifra de César</strong> </p>
+        </header>
+    </div>
+
+    <div>
+    <p><strong>Digite para criptografar ou descriptografar sua mensagem:</strong> </p>
+    <input type="text" id="mensagem" name="mensagem" placeholder="Digite aqui sua mensagem">
+  </div>
+
+  <div>
+    <P><label for="Codificador"><strong>Selecione o tipo de codificação:</strong></label></P>
+    <select name="Codificador" id="Codificador">
+      <option value="base"></option>
+      <option value="base">Base 64</option>
+      <option value="cifra">Cifra de César</option>
+    </select>
+  </div>
+
+  <div>
+    <p><label class="someChave" for="chave" id="labelChave"><strong>Digite uma Chave:</strong> </p></label>
+    <input class="someChave" type="number" name="chave" id="inputChave">
+  </div><br>
+
+  <div>
+    <input type="radio" name="radio" id="Codificar" value="codificar" checked>
+    <label for="codificado"><strong>Codificar</strong></label>
+    <input type="radio" name="radio" id="Decodificar" value="decodificar">
+    <label for="decodificado"><strong>Decodificar</strong></label> 
+  </div><br>
+
+  <div>
+    <button type="submit" id="Play">CODIFICAR A MENSAGEM</button>
+  </div>
+
+  <div>
+    <p><label for="resultado"><strong>Veja sua mensagem:</strong></label></p>
+    <textarea id="resultado" name="mensagem" placeholder="Sua mensagem Codificada/Decodificada"></textarea>
+    </div>
+
+  <div class="container">
+        <footer class="footer box">
+        <p>
+          <a><strong>Todos os direitos reservados.</strong></a>
+          <br>
+          <span>Site desenvolvido para fins educacionais.</span>
+        </p>
+        </footer>
+  </div>
+</body>
+</html>
